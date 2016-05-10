@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
 
-    [SerializeField]private GameObject _player;
+    [SerializeField]private Transform _player;
     private Camera _camera;
     
     [Range(-50f, 50f)]
